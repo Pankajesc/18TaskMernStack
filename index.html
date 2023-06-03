@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-container {
+      width: 60%;
+      height: 90%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;;
+    }
+
+    .grid-item {
+      margin: 0;
+      padding: 0;
+      border: 3.5px solid green;
+      height: 180px;
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-container">
+    <div class="grid-item" style="border-radius: 10px;"></div>
+    <div class="grid-item" style="border-radius: 15px;"></div>
+    <div class="grid-item" style="border-radius: 25px;"></div>
+    <div class="grid-item" style="border-radius: 20px;"></div>
+    <div class="grid-item" style="border-radius: 5px;"></div>
+    <div class="grid-item" style="border-radius: 30px;"></div>
+    <div class="grid-item" style="border-radius: 50%;"></div>
+    <div class="grid-item" style="border-radius: 10px;"></div>
+    <div class="grid-item" style="border-top-right-radius: 30px; border-bottom-left-radius: 30px;"></div>
+  </div>
+</body>
+</html>
